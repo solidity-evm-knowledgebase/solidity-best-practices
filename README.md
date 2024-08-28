@@ -21,7 +21,7 @@
 - public
 - internal
 - private
-- view & pure functions
+- view & pure functions (Getter Functions)
 
 ## Function Layout
 
