@@ -55,3 +55,22 @@ Example:
         );
     }
 
+### Layout of Function in Tests
+
+- Arrange
+- Act
+- Assert
+
+Example:
+
+```
+    function testRaffleRevertsIfNotEnoughEthToEnter() public {
+        // Arrange
+        vm.prank(PLAYER);
+        // Act / Assert
+        vm.expectRevert(Raffle.Raffle__NotEnoughEthToEnterRaffle.selector);
+        raffle.enterRaffle();
+        
+    }
+```
+
