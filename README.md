@@ -54,6 +54,7 @@ Example:
             })
         );
     }
+```
 
 ### Layout of Function in Tests
 
@@ -70,7 +71,5 @@ Example:
         // Act / Assert
         vm.expectRevert(Raffle.Raffle__NotEnoughEthToEnterRaffle.selector);
         raffle.enterRaffle();
-        
     }
 ```
-
