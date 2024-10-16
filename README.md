@@ -29,7 +29,7 @@ CEI: Checks, Effects, Interactions Pattern
 
 Example: 
 
-```
+```solidity
     function pickWinner() external {
         // Checks
         if (block.timestamp - s_lastTimestamp < i_interval) {
@@ -64,7 +64,7 @@ Example:
 
 Example:
 
-```
+```solidity
     function testRaffleRevertsIfNotEnoughEthToEnter() public {
         // Arrange
         vm.prank(PLAYER);
