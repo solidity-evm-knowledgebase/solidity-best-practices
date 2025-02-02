@@ -17,11 +17,11 @@
 - constructor
 - receive function (if exists)
 - fallback function (if exists)
-- external
-- public
-- internal
-- private
-- view & pure functions (Getter Functions)
+- external functions
+- public functions
+- internal functions
+- private functions
+- getter functions (view & pure functions)
 
 ## Function Layout
 
